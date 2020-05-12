@@ -332,6 +332,402 @@ var puzzles = [
 			}
 		]	
 	},
+	{
+		"question": "Name something people consider a snack food",
+		"answers": [
+			{
+			"text": "Chips",
+			"points": 51 
+			},
+			{
+			"text": "Popcorn",
+			"points": 12
+			},
+			{
+			"text": "Peanuts",
+			"points": 10
+			},
+			{
+			"text": "Crackers",
+			"points": 8 
+			},
+			{
+			"text": "Pretzels",
+			"points": 7 
+			},
+			{
+			"text": "Fruit",
+			"points": 6 
+			},
+			{
+			"text": "Cookies",
+			"points": 5 
+			},
+		]	
+	},
+	{
+		"question": "Name something or someone you associate with silent movies",
+		"answers": [
+			{
+			"text": "Charlie Chaplin",
+			"points": 21
+			},
+			{
+			"text": "Black and White",
+			"points": 18
+			},
+			{
+			"text": "Music",
+			"points": 15
+			},
+			{
+			"text": "Title Cards",
+			"points": 13
+			},
+			{
+			"text": "Mary Pickford",
+			"points": 12
+			},
+			{
+			"text": "Rudolf Valentino",
+			"points": 10
+			},
+			{
+			"text": "Buster Keaton",
+			"points": 6
+			},
+		]	
+	},
+	{
+		"question": "Name something you associate with British people",
+		"answers": [
+			{
+			"text": "English Accent",
+			"points": 44
+			},
+			{
+			"text": "Drinking Tea",
+			"points": 12
+			},
+			{
+			"text": "The Royal Family",
+			"points": 11
+			},
+			{
+			"text": "Bad Teeth",
+			"points": 10
+			},
+			{
+			"text": "Union Jack/Flag",
+			"points": 4
+			},
+			{
+			"text": "Fish & Chips",
+			"points": 3
+			},
+			{
+			"text": "Snobby Attitude",
+			"points": 3
+			},
+		]	
+	},
+	{
+		"question": "Besides throwing them away, name something you can do with old newspapers",
+		"answers": [
+			{
+			"text": "Recycle",
+			"points": 46
+			},
+			{
+			"text": "Burn Them",
+			"points": 21
+			},
+			{
+			"text": "Clean Windows",
+			"points": 12
+			},
+			{
+			"text": "Wrap Gifts",
+			"points": 8
+			},
+			{
+			"text": "Pack Dishes",
+			"points": 5
+			},
+			{
+			"text": "Crafts",
+			"points": 4
+			},
+			{
+			"text": "Line Bird Cage",
+			"points": 3
+			},
+		]	
+	},
+	{
+		"question": "Name something a little kid might tell you about Santa Clause",
+		"answers": [
+			{
+			"text": "He's Plump",
+			"points": 33
+			},
+			{
+			"text": "Is Jolly",
+			"points": 14
+			},
+			{
+			"text": "Has a Beard",
+			"points": 14
+			},
+			{
+			"text": "Wears a Red Suit",
+			"points": 12
+			},
+			{
+			"text": "He's Real",
+			"points": 11
+			},
+			{
+			"text": "Brings Presents",
+			"points": 9
+			},
+			{
+			"text": "Lives at the North Pole",
+			"points": 3
+			},
+		]	
+	},
+	{
+		"question": "Name something you shouldn't do when a cop pulls you over",
+		"answers": [
+			{
+			"text": "Drive Away",
+			"points": 28
+			},
+			{
+			"text": "Talk Back",
+			"points": 22
+			},
+			{
+			"text": "Swear",
+			"points": 14
+			},
+			{
+			"text": "Get Out of the Car",
+			"points": 11
+			},
+			{
+			"text": "Laugh",
+			"points": 7
+			},
+			{
+			"text": "Cry",
+			"points": 7
+			},
+			{
+			"text": "Lie",
+			"points": 4
+			},
+		]	
+	},
+	{
+		"question": "After a week of camping, what luxury of home are you most excited to have again",
+		"answers": [
+			{
+			"text": "Bed",
+			"points": 35
+			},
+			{
+			"text": "Shower",
+			"points": 25
+			},
+			{
+			"text": "TV",
+			"points": 13
+			},
+			{
+			"text": "Toilet",
+			"points": 11
+			},
+			{
+			"text": "Electricity",
+			"points": 4
+			},
+			{
+			"text": "Air Conditioner",
+			"points": 4
+			},
+			{
+			"text": "Computer",
+			"points": 3
+			},
+		]	
+	},
+	{
+		"question": "Name a cartoon movie that makes you cry even as an adult",
+		"answers": [
+			{
+			"text": "Bambi",
+			"points": 44
+			},
+			{
+			"text": "Lion King",
+			"points": 22
+			},
+			{
+			"text": "Cinderella",
+			"points": 13
+			},
+			{
+			"text": "Fox & The Hound",
+			"points": 7
+			},
+			{
+			"text": "Finding Nemo",
+			"points": 5
+			},
+			{
+			"text": "Beauty & The Beast",
+			"points": 3
+			},
+			{
+			"text": "Dumbo",
+			"points": 3
+			},
+		]	
+	},
+	{
+		"question": "Name something that you don't wash as often as you probably should",
+		"answers": [
+			{
+			"text": "Car",
+			"points": 39
+			},
+			{
+			"text": "Hands",
+			"points": 19
+			},
+			{
+			"text": "Hair",
+			"points": 14
+			},
+			{
+			"text": "Sheets",
+			"points": 10
+			},
+			{
+			"text": "Clothes",
+			"points": 6
+			},
+			{
+			"text": "Ears",
+			"points": 4
+			},
+			{
+			"text": "Windows",
+			"points": 3
+			},
+		]	
+	},
+	{
+		"question": "Name an event a child closes their eyes for",
+		"answers": [
+			{
+			"text": "Sleep",
+			"points": 51
+			},
+			{
+			"text": "Scary Movies",
+			"points": 17
+			},
+			{
+			"text": "Shots/Doctor",
+			"points": 12
+			},
+			{
+			"text": "Making A Wish",
+			"points": 7
+			},
+			{
+			"text": "Prayer",
+			"points": 5
+			},
+			{
+			"text": "Roller Coaster",
+			"points": 3
+			},
+			{
+			"text": "Hide and Seek",
+			"points": 3
+			},
+		]	
+	},
+	{
+		"question": "Name a type of business that usually has an ATM inside",
+		"answers": [
+			{
+			"text": "Bank",
+			"points": 29
+			},
+			{
+			"text": "Grocery Store",
+			"points": 22
+			},
+			{
+			"text": "Gas Station",
+			"points": 20
+			},
+			{
+			"text": "Convenience Store",
+			"points": 15
+			},
+			{
+			"text": "Bar",
+			"points": 4
+			},
+			{
+			"text": "Casino",
+			"points": 4
+			},
+			{
+			"text": "Restaurant",
+			"points": 3
+			},
+		]	
+	},
+	{
+		"question": "Name something a high school kid would get labeled as a \"nerd\" for",
+		"answers": [
+			{
+			"text": "Wearing Glasses",
+			"points": 28
+			},
+			{
+			"text": "Dressing Funny",
+			"points": 20
+			},
+			{
+			"text": "Bad At Sports",
+			"points": 13
+			},
+			{
+			"text": "Smart",
+			"points": 13
+			},
+			{
+			"text": "Studies Too Much",
+			"points": 11
+			},
+			{
+			"text": "Pocket Protector",
+			"points": 6
+			},
+			{
+			"text": "Plays Chess",
+			"points": 4
+			},
+		]	
+	},
 ]
 
 console.log("Puzzles Found");
