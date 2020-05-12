@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Array of Puzzles -->
+    <script type="text/javascript" src="src/puzzles.js"></script>
+
+    <title>Squad Battle!</title>
+  </head>
+  <body>
+
+<!-- Page Container -->
+<div class="container">
+
+<!-- Logo Row -->
+  <div class="row">
+    <div class="col-3">
+      <!-- Spacer -->
+    </div>
+    <div class="col-6">
+      <img src="pub/img/sblogo.png" class="img-fluid">
+    </div>
+    <div class="col-3">
+      <!-- Spacer -->
+    </div>
+  </div>
+
+<!-- Red Squad Sidebar Container -->
+  <div class="row">
+    <div class="col-3">
+
+      <!-- Red Squad Name Row -->
+      <div class="row">
+        <div class="col">
+          <h3 class="text-center">Hang Dang Squad</h3>
+        </div>
+      </div>
+
+      <!-- Red Squad Points Row -->
+     
+      <div class="row">
+        <div class="col">
+          <hr class="my-3">
+          <h3 class="text-center">000</h3>
+          <hr class="my-3">
+        </div>
+      </div>
+     
+      <!-- Red Squad Roster -->
+
+      <!-- Red P1 -->
+      <div class="row">
+        <div class="col-8">
+          <p>Player 1</p>
+        </div>
+        <div class="col-4">
+          <button class="btn-outline-secondary">Join</button>   
+        </div>
+      </div>
+
+      <!-- Red P2 -->
+      <div class="row">
+        <div class="col-8">
+          <p>Player 2</p>
+        </div>
+        <div class="col-4">
+          <button class="btn-outline-secondary">Join</button>   
+        </div>
+      </div>
+
+      <!-- Red P3 -->
+      <div class="row">
+        <div class="col-8">
+          <p>Player 3</p>
+        </div>
+        <div class="col-4">
+          <button class="btn-outline-secondary">Join</button>   
+        </div>
+      </div>
+
+      <!-- Red P4 -->
+      <div class="row">
+        <div class="col-8">
+          <p>Player 4</p>
+        </div>
+        <div class="col-4">
+          <button class="btn-outline-secondary">Join</button>   
+        </div>
+      </div>
+
+      <!-- Red P5 -->
+      <div class="row">
+        <div class="col-8">
+          <p>Player 5</p>
+        </div>
+        <div class="col-4">
+          <button class="btn-outline-secondary">Join</button>   
+        </div>
+      </div>
+    </div>
+
+<!-- Game Board -->
+    
+    <div class="col-6">
+      <div class="jumbotron">
+
+        <!-- Question -->
+        <h4 class="__question text-center"></h4>
+        
+        <div class="row">
+          <div class="col">
+
+            <!-- Board Score -->
+            <hr class="my-6">
+            <h3 class="text-center">
+              000
+            </h3>
+            <hr class="my-6">
+          </div>
+        </div>
+        
+
+        <!-- Answers 1st Row -->
+        <div class="row">
+
+          <!-- Left Col  -->
+          <div class="col-6">
+
+            <!-- Answer 1 -->
+            <div class="row">
+              <div class="col-10">
+                <p class="__answer1 text-left"></p>
+              </div>
+              <div class="col-2">
+                <p class="__points1 text-right"></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 1st Row Right Col -->
+          <div class="col-6">
+
+            <!-- Answer 5 -->
+            <div class="row">
+              <div class="col-10">
+                <p class="__answer5 text-left"></p>
+              </div>
+              <div class="col-2">
+                <p class="__points5 text-right"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Answers 2nd Row  -->
+        <div class="row">
+
+          <!-- Left Col -->
+          <div class="col-6">
+
+            <!-- Answer 2 -->
+            <div class="row">
+              <div class="col-10">
+                <p class="__answer2 text-left"></p>
+              </div>
+              <div class="col-2">
+                <p class="__points2 text-right"></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Col -->
+          <div class="col-6">
+
+            <!-- Answer 6 -->
+            <div class="row">
+              <div class="col-10">
+                <p class="__answer6 text-left"></p>
+              </div>
+              <div class="col-2">
+                <p class="__points6 text-right"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Answers 3rd Row -->
+        <div class="row">
+
+          <!-- Left Col -->
+          <div class="col-6">
+
+            <!-- Answer 3 -->
+            <div class="row">
+              <div class="col-10">
+                <p class="__answer3 text-left"></p>
+              </div>
+              <div class="col-2">
+                <p class="__points3 text-right"></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Col -->
+          <div class="col-6">
+
+            <!-- Answer 7 -->
+            <div class="row">
+              <div class="col-10">
+                <p class="__answer7 text-left"></p>
+              </div>
+              <div class="col-2">
+                <p class="__points7 text-right"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Answers 4th Row -->
+        <div class="row">
+
+          <!-- Left Col -->
+          <div class="col-6">
+
+            <!-- Answer 4 -->
+            <div class="row">
+              <div class="col-10">
+                <p class="__answer4 text-left"></p>
+              </div>
+              <div class="col-2">
+                <p class="__points4 text-right"></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Col -->
+          <div class="col-6">
+
+            <!-- Answer 8 -->
+            <div class="row">
+              <div class="col-10">
+                <p class="__answer8 text-left"></p>
+              </div>
+              <div class="col-2">
+                <p class="__points8 text-right"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Strikes -->
+        <div class="row">
+          <div class="col-4">
+            <h1>X</h1>
+          </div>
+          <div class="col-4">
+            <h1>X</h1>
+          </div>
+          <div class="col-4">
+            <h1>X</h1>
+          </div>
+        </div>
+        <button onclick="newPuzzle()">
+          Next Question
+        </button>  
+      </div>
+    </div>
+
+    <!-- Blue Squad Side Bar -->
+    <div class="col-3">
+
+      <!-- Blue Squad Name -->
+      <div class="row">
+        <div class="col">
+          <h3 class="text-center">Titty Sprinkles Squad</h3>
+        </div>
+      </div>
+
+      <!-- Blue Squad Points -->
+      <div class="row">
+        <div class="col">
+          <hr class="my-3">
+          <h3>000</h3>
+          <hr class="my-3">
+        </div>
+      </div>
+
+      <!-- Blue Squad Roster -->
+
+      <!-- Blue P1 -->
+      <div class="row">
+        <div class="col-8">
+          <p>Player 1</p>
+        </div>
+        <div class="col-4">
+          <button class="btn-outline-secondary">Join</button>   
+        </div>
+      </div>
+
+      <!-- Blue P2 -->
+      <div class="row">
+        <div class="col-8">
+          <p>Player 2</p>
+        </div>
+        <div class="col-4">
+          <button class="btn-outline-secondary">Join</button>   
+        </div>
+      </div>
+
+      <!-- Blue P3 -->
+      <div class="row">
+        <div class="col-8">
+          <p>Player 3</p>
+        </div>
+        <div class="col-4">
+          <button class="btn-outline-secondary">Join</button>   
+        </div>
+      </div>
+
+      <!-- Blue P4 -->
+      <div class="row">
+        <div class="col-8">
+          <p>Player 4</p>
+        </div>
+        <div class="col-4">
+          <button class="btn-outline-secondary">Join</button>   
+        </div>
+      </div>
+
+      <!-- Blue P5 -->
+      <div class="row">
+        <div class="col-8">
+          <p>Player 5</p>
+        </div>
+        <div class="col-4">
+          <button class="btn-outline-secondary">Join</button>   
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="pub/scripts/script.js"></script>
+  </body>
+</html>
