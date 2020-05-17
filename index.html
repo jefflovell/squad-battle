@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Array of Puzzles -->
+    <link rel="stylesheet" href="pub/styles/main.css">
+
     <script type="text/javascript" src="src/puzzles.js"></script>
 
     <title>Squad Battle!</title>
@@ -111,17 +113,17 @@
       <div class="jumbotron">
 
         <!-- Question -->
-        <h4 class="__question text-center"></h4>
-        
-        <div class="row">
-          <div class="col">
+        <div id="__question" class="row shadow-sm rounded question-default">
+          <div class="d-flex h-100 col-12"> 
+            <h4 id="__question-text" class="text-center align-self-center"></h4>
+          </div>
+        </div>
+        <div class="row justify-content-center">
 
-            <!-- Board Score -->
-            <hr class="my-6">
-            <h3 class="text-center">
+          <div class="d-flex h-100 col-2 rounded scoreboard">
+            <h3 id="__score" class="mx-auto my-auto">
               000
             </h3>
-            <hr class="my-6">
           </div>
         </div>
         
@@ -130,30 +132,30 @@
         <div class="row">
 
           <!-- Left Col  -->
-          <div class="col-6">
+          <div class="col-6" onclick="revealAnswer('#__text1','#__points1', 0)">
 
             <!-- Answer 1 -->
-            <div class="row">
-              <div class="col-10">
-                <p class="__answer1 text-left"></p>
-              </div>
-              <div class="col-2">
-                <p class="__points1 text-right"></p>
-              </div>
+            <div id="__answer1" class="row rounded answer answer-default">
+                <div class="d-flex h-100 col-10">
+                  <p id="__text1" class="text-left my-auto"></p>
+                </div>
+                <div class="d-flex h-100 col-2">
+                  <p id="__points1" class="text-right my-auto"></p>
+                </div>
             </div>
           </div>
 
           <!-- 1st Row Right Col -->
-          <div class="col-6">
+          <div class="col-6" onclick="revealAnswer('#__text5','#__points5', 4)">
 
             <!-- Answer 5 -->
-            <div class="row">
-              <div class="col-10">
-                <p class="__answer5 text-left"></p>
-              </div>
-              <div class="col-2">
-                <p class="__points5 text-right"></p>
-              </div>
+            <div id="__answer5" class="row rounded answer answer-default">
+                <div class="d-flex h-100 col-10">
+                  <p id="__text5" class="text-left my-auto"></p>
+                </div>
+                <div class="d-flex h-100 col-2">
+                  <p id="__points5" class="text-right my-auto"></p>
+                </div>
             </div>
           </div>
         </div>
@@ -162,30 +164,30 @@
         <div class="row">
 
           <!-- Left Col -->
-          <div class="col-6">
+          <div class="col-6" onclick="revealAnswer('#__text2','#__points2', 1)">
 
             <!-- Answer 2 -->
-            <div class="row">
-              <div class="col-10">
-                <p class="__answer2 text-left"></p>
-              </div>
-              <div class="col-2">
-                <p class="__points2 text-right"></p>
-              </div>
+            <div id="__answer2" class="row shadow-sm rounded answer answer-default">
+                <div class="d-flex h-100 col-10">
+                  <p id="__text2" class="text-left my-auto"></p>
+                </div>
+                <div class="d-flex h-100 col-2">
+                  <p id="__points2" class="text-right my-auto"></p>
+                </div>
             </div>
           </div>
 
           <!-- Right Col -->
-          <div class="col-6">
+          <div class="col-6" onclick="revealAnswer('#__text6','#__points6', 5)">
 
             <!-- Answer 6 -->
-            <div class="row">
-              <div class="col-10">
-                <p class="__answer6 text-left"></p>
-              </div>
-              <div class="col-2">
-                <p class="__points6 text-right"></p>
-              </div>
+            <div id="__answer6" class="row shadow-sm rounded answer answer-default">
+                <div class="d-flex h-100 col-10">
+                  <p id="__text6" class="text-left my-auto"></p>
+                </div>
+                <div class="d-flex h-100 col-2">
+                  <p id="__points6" class="text-right my-auto"></p>
+                </div>
             </div>
           </div>
         </div>
@@ -194,30 +196,30 @@
         <div class="row">
 
           <!-- Left Col -->
-          <div class="col-6">
+          <div class="col-6" onclick="revealAnswer('#__text3','#__points3', 2)">
 
             <!-- Answer 3 -->
-            <div class="row">
-              <div class="col-10">
-                <p class="__answer3 text-left"></p>
-              </div>
-              <div class="col-2">
-                <p class="__points3 text-right"></p>
-              </div>
+            <div id="__answer3" class="row shadow-sm rounded answer answer-default">
+                <div class="d-flex h-100 col-10">
+                  <p id="__text3" class="text-left my-auto"></p>
+                </div>
+                <div class="d-flex h-100 col-2">
+                  <p id="__points3" class="text-right my-auto"></p>
+                </div>
             </div>
           </div>
 
           <!-- Right Col -->
-          <div class="col-6">
+          <div class="col-6" onclick="revealAnswer('#__text7','#__points7', 6)">
 
             <!-- Answer 7 -->
-            <div class="row">
-              <div class="col-10">
-                <p class="__answer7 text-left"></p>
-              </div>
-              <div class="col-2">
-                <p class="__points7 text-right"></p>
-              </div>
+            <div id="__answer7" class="row shadow-sm rounded answer answer-default">
+                <div class="d-flex h-100 col-10">
+                  <p id="__text7" class="text-left my-auto"></p>
+                </div>
+                <div class="d-flex h-100 col-2">
+                  <p id="__points7" class="text-right my-auto"></p>
+                </div>
             </div>
           </div>
         </div>
@@ -226,30 +228,30 @@
         <div class="row">
 
           <!-- Left Col -->
-          <div class="col-6">
+          <div class="col-6" onclick="revealAnswer('#__text4','#__points4', 3)">
 
             <!-- Answer 4 -->
-            <div class="row">
-              <div class="col-10">
-                <p class="__answer4 text-left"></p>
-              </div>
-              <div class="col-2">
-                <p class="__points4 text-right"></p>
-              </div>
+            <div id="__answer4" class="row shadow-sm rounded answer answer-default">
+                <div class="d-flex h-100 col-10">
+                  <p id="__text4" class="text-left my-auto"></p>
+                </div>
+                <div class="d-flex h-100 col-2">
+                  <p id="__points4" class="text-right my-auto"></p>
+                </div>
             </div>
           </div>
 
           <!-- Right Col -->
-          <div class="col-6">
+          <div class="col-6" onclick="revealAnswer('#__text8','#__points8', 7)">
 
             <!-- Answer 8 -->
-            <div class="row">
-              <div class="col-10">
-                <p class="__answer8 text-left"></p>
-              </div>
-              <div class="col-2">
-                <p class="__points8 text-right"></p>
-              </div>
+            <div id="__answer8" class="row shadow-sm rounded answer answer-default">
+                <div class="d-flex h-100 col-10">
+                  <p id="__text8" class="text-left my-auto"></p>
+                </div>
+                <div class="d-flex h-100 col-2">
+                  <p id="__points8" class="text-right my-auto"></p>
+                </div>
             </div>
           </div>
         </div>

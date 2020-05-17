@@ -363,6 +363,10 @@ var puzzles = [
 			"text": "Cookies",
 			"points": 5 
 			},
+			{
+			"text": null,
+			"points": null
+			}
 		]	
 	},
 	{
@@ -396,6 +400,10 @@ var puzzles = [
 			"text": "Buster Keaton",
 			"points": 6
 			},
+			{
+			"text": null,
+			"points": null
+			}
 		]	
 	},
 	{
@@ -429,6 +437,10 @@ var puzzles = [
 			"text": "Snobby Attitude",
 			"points": 3
 			},
+			{
+			"text": null,
+			"points": null
+			}
 		]	
 	},
 	{
@@ -462,6 +474,10 @@ var puzzles = [
 			"text": "Line Bird Cage",
 			"points": 3
 			},
+			{
+			"text": null,
+			"points": null
+			}
 		]	
 	},
 	{
@@ -495,6 +511,10 @@ var puzzles = [
 			"text": "Lives at the North Pole",
 			"points": 3
 			},
+			{
+			"text": null,
+			"points": null
+			}
 		]	
 	},
 	{
@@ -528,6 +548,10 @@ var puzzles = [
 			"text": "Lie",
 			"points": 4
 			},
+			{
+			"text": null,
+			"points": null
+			}
 		]	
 	},
 	{
@@ -561,6 +585,10 @@ var puzzles = [
 			"text": "Computer",
 			"points": 3
 			},
+			{
+			"text": null,
+			"points": null
+			}
 		]	
 	},
 	{
@@ -594,6 +622,10 @@ var puzzles = [
 			"text": "Dumbo",
 			"points": 3
 			},
+			{
+			"text": null,
+			"points": null
+			}
 		]	
 	},
 	{
@@ -627,6 +659,10 @@ var puzzles = [
 			"text": "Windows",
 			"points": 3
 			},
+			{
+			"text": null,
+			"points": null
+			}
 		]	
 	},
 	{
@@ -660,6 +696,10 @@ var puzzles = [
 			"text": "Hide and Seek",
 			"points": 3
 			},
+			{
+			"text": null,
+			"points": null
+			}
 		]	
 	},
 	{
@@ -693,6 +733,10 @@ var puzzles = [
 			"text": "Restaurant",
 			"points": 3
 			},
+			{
+			"text": null,
+			"points": null
+			}
 		]	
 	},
 	{
@@ -726,6 +770,10 @@ var puzzles = [
 			"text": "Plays Chess",
 			"points": 4
 			},
+			{
+			"text": null,
+			"points": null
+			}
 		]	
 	},
 ]

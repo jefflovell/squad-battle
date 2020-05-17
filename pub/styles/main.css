@@ -1,0 +1,89 @@
+/*Bootstrap Overrides*/
+
+.jumbotron {
+	background: rgb(0,20,156);
+	background: radial-gradient(circle, rgba(0,20,156,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%);
+}
+
+@media (min-width: 576px) {
+	.jumbotron {
+    padding: 2rem;
+	}
+}
+
+/*Utilities*/
+.hidden {
+	visibility: hidden;
+}
+
+.answer p {
+    margin-bottom: 0;
+}
+
+.answer-spacer {
+	margin-bottom: .5em;
+}
+
+/*Custom Classes*/
+
+.scoreboard{
+	height: 50px !important;
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 20px;
+	padding-left: .5em;
+	padding-right: .5em;
+	color: #f5e642;
+	background: rgb(27,27,27);
+	background: linear-gradient(0deg, rgba(27,27,27,1) 0%, rgba(50,50,50,1) 50%, rgba(27,27,27,1) 100%);
+	border: 2px solid #f5e642;
+}
+
+
+.question-default{
+	height: 120px;
+	margin-bottom: 20px;
+	padding: .5em;
+	color: #f5e642;
+	background: rgb(27,27,27);
+	background: linear-gradient(0deg, rgba(27,27,27,1) 0%, rgba(50,50,50,1) 50%, rgba(27,27,27,1) 100%);
+	border: 2px solid #f5e642;
+}
+
+.question-flipped{
+	height: 120px;
+	margin-bottom: 20px;
+	padding: .5em;
+	color: #333;
+	background: rgb(217,176,0);
+	background: linear-gradient(0deg, rgba(217,176,0,1) 0%, rgba(255,211,0,1) 19%, rgba(255,233,46,1) 50%, rgba(255,211,0,1) 80%, rgba(217,176,0,1) 100%);
+	border: 2px solid #f5e642;
+}
+
+.answer-default {
+	height: 50px;
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 10px;
+	padding-left: .5em;
+	padding-right: .5em;
+	background: rgb(27,27,27);
+	background: linear-gradient(0deg, rgba(27,27,27,1) 0%, rgba(50,50,50,1) 50%, rgba(27,27,27,1) 100%);
+	border: 2px solid #f5e642;
+}
+
+.answer-flipped {
+	cursor: pointer;
+	height: 50px;
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 10px;
+	padding-left: .5em;
+	padding-right: .5em;
+	background: rgb(217,176,0);
+	background: linear-gradient(0deg, rgba(217,176,0,1) 0%, rgba(255,211,0,1) 19%, rgba(255,233,46,1) 50%, rgba(255,211,0,1) 80%, rgba(217,176,0,1) 100%);
+	border: 2px solid #f5e642;
+}
+
+
+
