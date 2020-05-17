@@ -1,4 +1,4 @@
-var currentPuzzle = 0;
+var currentPuzzle = -1;
 var score = 0;
 var redScore = 0;
 var blueScore = 0;
@@ -15,6 +15,9 @@ function newPuzzle(){
 						"#__answer7",
 						"#__answer8"
 					];
+	//iterate the count to pull the next puzzle
+	currentPuzzle++;
+
 	//reset the score for each puzzle
 	score = 0;
 	$("#__score").html(score);
@@ -60,9 +63,6 @@ function newPuzzle(){
 			$(pointsEl).toggleClass("hidden", true);
 		}
 	});
-
-	//iterate the count to pull the next puzzle
-	currentPuzzle++;
 };
 
 console.log("Javascript Loaded");
@@ -73,6 +73,6 @@ function revealAnswer(text, points, i){
 	//unhide the points
 	$(points).toggleClass("hidden", false);
 	//add the points to the puzzle score
-	score += puzzles[currentPuzzle-1].answers[i].points;
+	score += puzzles[currentPuzzle].answers[i].points;
 	$("#__score").html(score);
 };
